@@ -1,2 +1,8 @@
 # Course-Project-for-Getting-and-Cleaning-Data
-# This repo contains xxx files.
+
+# What this Project does:
+
+
+# This repo contains the following files:
+- 'Readme.md'
+- 
