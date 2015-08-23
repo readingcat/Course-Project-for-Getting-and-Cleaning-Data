@@ -121,3 +121,4 @@ write.table(averages_by_subjectActivity, file = "averages_by_subjectActivity.txt
 
 
 
+
