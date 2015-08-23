@@ -99,7 +99,7 @@ subject <- factor(subject[,1])
 tidydata <- data.frame(subject, activity, meansX, stdsX)
 
 # Write the tidy dataset under 'tidydata.txt'
-write.table(tidydata, file = "tidydata.txt")
+write.table(tidydata, file = "tidydata.txt", row.names = FALSE)
 
 
 
@@ -116,7 +116,7 @@ subjectActivity <- group_by(tidydata, subject, activity)
 averages_by_subjectActivity <- summarise_each(subjectActivity, 'mean')
 
 # Write the averages dataset under 'averages_by_subjectActivity.txt'
-write.table(averages_by_subjectActivity, file = "averages_by_subjectActivity.txt")
+write.table(averages_by_subjectActivity, file = "averages_by_subjectActivity.txt", row.names = FALSE)
 
 
 
