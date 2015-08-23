@@ -1,6 +1,6 @@
-## CodeBook: Course Project for Getting and Cleaning Data
+# CodeBook: Course Project for Getting and Cleaning Data
 
-# Description of the Project Assignment
+## Description of the Project Assignment
 
 Create one R script called 'run_analysis.R' that does the following. 
 1. Merges the training and the test sets to create one data set.
@@ -9,7 +9,7 @@ Create one R script called 'run_analysis.R' that does the following.
 4. Appropriately labels the data set with descriptive variable names. 
 5. From the data set in step 4, creates a second, independent tidy data set with the average of each variable for each activity and each subject.
 
-# Description of Raw Data
+## Description of Raw Data
 
 The data contained in 'rawdata.zip' were downloaded via the link provided on the course website:
 
@@ -19,7 +19,7 @@ A full description of the data is available at the site where the data was obtai
 
 http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones
 
-# Description of Steps in 'run_analysis.R'
+## Description of Steps in 'run_analysis.R'
 
 Step 1. Read relevant raw datasets: The following datasets are read into R using 'read.table()':
 - 'featureNames' : names of the features;
