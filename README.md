@@ -1,4 +1,4 @@
-# Course Project for Getting and Cleaning Data
+# ReadMe: Course Project for Getting and Cleaning Data
 
 
 ## This repository contains the following files:
@@ -11,7 +11,7 @@
 - 'CodeBook.md' : Guides through the steps of 'run_analysis.R'
 
 
-## To reproduce the project outputs:
+## Steps to reproduce the project outputs:
 
 1. Download and unzip 'rawdata.zip'. Rename the folder as 'data'
 2. Download 'run_analysis.R' 

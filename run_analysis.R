@@ -37,6 +37,7 @@ testSubject <- read.table("data/test/subject_test.txt")
 
 
 
+
 ## Step 2. Merge train and test datasets:
 ## =========================================================================
 
@@ -91,7 +92,6 @@ levels(activity) <- as.character(activityNames[,2])
 ## Step 5. Create and write the tidy dataset under 'tidydata.txt':
 ## ======================================================================
 
-
 # Better to transform class of 'subject' from integer to factor
 subject <- factor(subject[,1])
 
@@ -109,7 +109,7 @@ write.table(tidydata, file = "tidydata.txt")
 ## each variable for each activity and each subject:
 ## ======================================================================
 
-# Group 'tidydata' by activity and subject
+# Group 'tidydata' by subject and activity
 subjectActivity <- group_by(tidydata, subject, activity)
 
 # Create the averages dataset using 'summarize()'
